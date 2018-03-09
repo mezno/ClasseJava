@@ -47,6 +47,12 @@ public void manger(){
 	System.out.println("Je mange du riz");
 }
 
+// Méthode toString qui décrit une personne 
+
+public String toString(){
+	return "je suis "+prenom+" "+nom+" et j'ai "+age+ " ans ";
+}
+
 // Accesseurs ou getters
 
 public String getNom(){
