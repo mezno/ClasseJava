@@ -13,7 +13,16 @@ this.prenom="inconnu";
 this.age=0;
 
 }
-
+  
+  
+public Personne(String nom,String prenom,int age){
+  
+  this.nom=nom;
+  this.prenom=prenom;
+  this.age=age;
+  
+  
+}
 
 
 
