@@ -2,10 +2,14 @@
 public class Personne {
 
 
+//Attributs
+
 protected String nom;
 protected String prenom;
 protected int age;
 
+
+// Constructeur par défaut
 
 public Personne(){
 this.nom="inconnu";
@@ -14,7 +18,8 @@ this.age=0;
 
 }
   
-  
+  // Constructeur d'initialisation
+
 public Personne(String nom,String prenom,int age){
   
   this.nom=nom;
@@ -24,6 +29,7 @@ public Personne(String nom,String prenom,int age){
   
 }
 
+// Méthodes 
 
 public void seDeplacer(){
 
@@ -41,6 +47,7 @@ public void manger(){
 	System.out.println("Je mange du riz");
 }
 
+// Accesseurs ou getters
 
 public String getNom(){
 	return this.nom;
@@ -55,6 +62,7 @@ public int getAge(){
 }
 
 
+//Mutateurs ou setters
 
 public void setNom(String nom){
 	return this.nom=nom;
@@ -67,6 +75,8 @@ public void setPrenom(String prenom){
 public void setAge(int age){
 	return this.age;
 }
+
+
 
 
 }
