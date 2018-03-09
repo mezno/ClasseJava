@@ -15,5 +15,31 @@ public class Eleve extends Personnage{
 		this.moyenne=moyenne;
 	}
 
+// Méthode toString qui décrit un élève
+	
+	public String toString(){
+		return super.toString()+" ,Je suis en classe de: "+this.classe+" et j'ai obtenu: "+moyenne+" de moyenne";
+	}
+
+// Accesseurs ou Getters
+
+	public String getClasse(){
+		return this.classe;
+	}
+
+	public double getMoyenne(){
+		return this.moyenne;
+	}
+
+// Mutateurs ou Setters
+
+	public void setClasse(String classe){
+		return this.classe=classe;
+	}
+
+	public void setMoyenne(double moyenne){
+		return this.moyenne=moyenne;
+	}
+
 
 }
