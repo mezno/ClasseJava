@@ -55,4 +55,18 @@ public int getAge(){
 }
 
 
+
+public void setNom(String nom){
+	return this.nom=nom;
+}
+
+public void setPrenom(String prenom){
+	return this.prenom=prenom;
+}
+
+public void setAge(int age){
+	return this.age;
+}
+
+
 }
