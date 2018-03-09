@@ -2,9 +2,9 @@
 public class Personne {
 
 
-public String nom;
-public String prenom;
-public int age;
+protected String nom;
+protected String prenom;
+protected int age;
 
 
 public Personne(){
@@ -42,6 +42,17 @@ public void manger(){
 }
 
 
+public String getNom(){
+	return this.nom;
+}
+
+public String getPrenom(){
+	return this.prenom;
+}
+
+public int getAge(){
+	return this.age;
+}
 
 
 }
