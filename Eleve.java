@@ -3,11 +3,14 @@ public class Eleve extends Personnage{
 	protected String classe;
 	protected double moyenne;
 
+// Constructeur par défaut 
 	public Eleve(){
 		super();
 		this.classe="inconnue";
 		this.moyenne=0.0;
 	}
+
+	// Constructeur d'initialisation
 
 	public Eleve(String nom,String prenom,int age;String classe,double moyenne){
 		super(nom,prenom,age);
